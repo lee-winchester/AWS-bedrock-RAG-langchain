@@ -7,9 +7,6 @@ A Python-based document processing system that leverages Retrieval Augmented Gen
 </p>
 <br>
 
-
-Detailed blog post: [LangChain ile Amazon Bedrock RAG Kullanımı](https://silverstone1903.github.io/posts/2024/11/langchain-ile-amazon-bedrock/) (Turkish)
-
 ## 🚀 Features
 
 - PDF document processing and chunking
@@ -71,12 +68,7 @@ python create_db.py
 streamlit run app.py
 ```
 
-### 💻 Streamlit App
 
-<p style="text-align:center">
-<img src="https://silverstone1903.github.io/images/ml_assistant_long.gif" width="900">
-</p>
-<br>
 
 ## 📁 Project Structure
 
