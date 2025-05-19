@@ -2,12 +2,9 @@
 
 A Python-based document processing system that leverages Retrieval Augmented Generation (RAG) using AWS Bedrock and Chroma Vector DB for efficient document search and retrieval.
 
-<p style="text-align:center">
-<img src="https://img.youtube.com/vi/_vdK5PgcNvc/maxresdefault.jpg" width="550">
-</p>
-<br>
 
-## 🚀 Features
+
+## Features
 
 - PDF document processing and chunking
 - Vector embeddings using AWS Bedrock Titan
@@ -16,7 +13,7 @@ A Python-based document processing system that leverages Retrieval Augmented Gen
 - Unique document chunk identification
 - Efficient text search and retrieval
 
-## 🛠️ Technologies
+## Technologies
 
 - Python 3.9+
 - LangChain
@@ -24,13 +21,13 @@ A Python-based document processing system that leverages Retrieval Augmented Gen
 - ChromaDB
 - Streamlit (for UI)
 
-## 📋 Prerequisites
+## Prerequisites
 
 - AWS Account with Bedrock access
 - AWS CLI configured with appropriate credentials
 - Python 3.9 or higher
 
-## 🔧 Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -44,7 +41,7 @@ poetry install
 poetry run streamlit run app.py
 ```
 
-## ⚙️ Configuration
+## Configuration
 
 1. Set up AWS credentials in your profile
 2. Update the following constants in `create_db.py` and `app.py`:
@@ -56,7 +53,7 @@ txt_model_name = "amazon.titan-text-express-v1"
 
 ```
 
-## 🚀 Usage
+## Usage
 
 1. Place your PDF documents in the configured `DATA_PATH`
 2. Run the document processing script:
@@ -70,7 +67,7 @@ streamlit run app.py
 
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
